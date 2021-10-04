@@ -9,14 +9,12 @@ h1{
 body{
     background-color:#F4A950;
     overflow-x: hidden;
-    
   }
 
 *{
     margin: 0;
     padding: 0;
-    /* font-family: sans-serif; */
-    box-sizing: border-box;
+    font-family: sans-serif;
 }
 .banner{
     width: 100%;
@@ -390,18 +388,18 @@ body{
 
 .secondcontent{
     background-color:#F8EFBA;
-    /* position: relative; */
+    position: relative;
     top: 800px;                        /*tour to our discord server part*/
     padding-bottom: 250px;
 }
 
 .video{
-    /* position: relative;            tour to our discord server video part */
+    position: relative;            /*tour to our discord server video part*/
     left: 400px;
     
 }
 .secondcontentheader{
-    /* position: relative; */
+    position: relative;
     width: 90%;                   /*tour to our discord server header part*/
     right: -290px;
                                 /*header content only have pacific writings excluding the video*/
@@ -412,7 +410,7 @@ body{
 .secondcontentheader h1{
     margin-bottom: 20px;
     font-family: Goudy Old Style;
-    /* position: relative; */
+    position: relative;
     left: 60px;
 }
 .secondcontentheader h3{
@@ -423,35 +421,63 @@ body{
     font-family: Trebuchet MS;
     margin-bottom: 150px;
 }
-.discordlink{
+
+/*Discord Button*/
+.discordlink {
     position: relative;
-    margin-top: 200px;         /*discord link part*/
-    width: 70%;
-    left: 340px;
-}
-.discordlink h2{
-    font-size: 50px;
-    /* position: relative; */
-    left: 290px;
-}
-.discordlink h4{
-    font-size: 25px;
-    width: 60%;
-    /* position: relative; */
-    left: 180px;
-}
-
-
-
-.discotemplate{
-    /* position: relative; */
-    top: 50px;
-    right: -250px;    /*discord link image part*/
-}
-
+    display: flex;
+    margin: auto;
+    margin-top: 50px; /*discord link part*/
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
+    background-color: rgb(114, 137, 218);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .discordlink span {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+  }
+  /*Hovering Effect*/
+  .discordlink:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .discordlink:hover:after {
+    width: 120%;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
 
 /*Footer part starts from here*/
+#footer-block{
+    z-index: 10;
+    position: relative;
+    top:600px;
+
+}
 .last{
+    
     border: 1px solid;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
     display: flex;
