@@ -41,31 +41,48 @@ body{
     margin: 0 20px;
     position: relative;
 }
-.navbar ul li a{
-    color: white;
+.navbar a{
+    padding: .5em .8em;
+    color: rgba(255,255,255,.5);
+    position: relative;
     text-decoration: none;
-    
+    font-size: 20px;
 }
-.navbar ul li::after{
-    content: "";
-    height: 3px;
-    width: 0;
-    background: greenyellow;
-    position:absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+.navbar a:hover{
+    color: yellow;
 }
-.navbar ul li:hover::after{
-    width: 100%;
-}
-.content{
-    width: 100%;
+.navbar a::before,
+.navbar a::after{
+    content: '';
+    height: 14px;
+    width: 14px;
     position: absolute;
-    top: 50%;
-    text-align: center;
-    color: honeydew;
-    transform: translateY(-50%);
+    transition: all .35s ease;
+    opacity: 0;
+}
+.navbar a::before{
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid yellow;
+    border-right: 3px solid yellowgreen;
+    transform: translate(-100%, 50%);
+}
+.navbar a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid yellow;
+    border-left: 3px solid yellowgreen;
+    transform: translate(100%, -50%)
+}
+.navbar a:hover:before,
+.navbar a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.navbar a:hover::after{
+    color: yellow;
 }
 .content h1{
     font-size: 70px;
