@@ -36,9 +36,9 @@ GitHub:  https://github.com/LWM-Community <br>
 Facebook: https://www.facebook.com/LearnWithMitul <br>
 
 **Here is the LWM Community  GitHub page link**:
-https://lwm-community.github.io/lwm_Hacktober_repo_1/ of this repository
+https://lwm-community.github.io/LWM-Community-Web-Page/ of this repository
 
-**✅Want to contribute to LWM Community ? This Repository is Open sourced and  you can contribute to this repository now in Hacktoberfest 2021 .  Have a look at this [Contribution.md](https://github.com/LWM-Community/LWM-Community-Web-Page/blob/main/Contribution.md) before you start your contribtuion.****
+**✅Want to contribute to LWM Community ? This Repository is Open sourced and  you can contribute to this repository now in Hacktoberfest 2021 .  Have a look at this [Contribution.md](https://github.com/LWM-Community/LWM-Community-Web-Page/blob/main/Contribution.md) before you start your contribtuion.**
 
 
 # Don't know what is Hacktoberfest
