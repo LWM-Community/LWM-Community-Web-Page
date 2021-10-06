@@ -43,6 +43,9 @@ https://lwm-community.github.io/LWM-Community-Web-Page/ of this repository
 
 # Don't know what is Hacktoberfest
 
+How to register, some important rules to follow, which repos to contribute and other details in a 22 mins quick video on our Youtube Channel.
+Watch the full video here- https://www.youtube.com/watch?v=4NJrM61zZL0
+
 
 <img src="images/Hacktoberfest_final_2color-06 copy.svg" >
 
