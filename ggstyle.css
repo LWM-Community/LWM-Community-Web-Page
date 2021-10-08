@@ -569,6 +569,10 @@ li:hover i{
     color: rgb(247, 84, 9);
     
 }
+
+.sociallinks{
+    columns: 2;
+}
 .footer{
     text-align: center;
     padding: 7px;
