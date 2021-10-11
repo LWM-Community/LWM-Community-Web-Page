@@ -117,24 +117,22 @@ body{
 
 /*About our community starts from here*/
 .firstcontainerheader{  /*Header part of about our community*/
-    position: relative;
-    margin: 200px;
-    right: -170px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .firstcontainerheader h1{
-    font-size: 110px;
+    margin-top: 10vh;
+    font-size: 10vh;
     font-family:  monospace;
 }
 .firstcontainerheader h3{
     position: relative;
     margin-top: 50px;
     font-size: 28px;
-    width: 94%;
-    right: 120px;
-    
+    padding: 10px 200px 150px 200px;
     font-family:Times New Roman;
-
 }
 
 .courses{
@@ -142,20 +140,23 @@ body{
     height: 400px;
     width: 400px;
     float: left;
-
+    object-fit: cover;
+    margin-right: 5vw;
 }
 .swags{
     border-radius: 100%;
     height: 400px;         /*picture for swags part*/
     width: 400px;
     float: right;
+    object-fit: cover;
 }
 .guidance{
     border-radius: 100%;
     height: 400px;            /*picture for guidance part*/
     width: 400px;
     float: left;
-
+    object-fit: cover;
+    margin-left: 5vw;
 }
 .events{
     border-radius: 100%;
@@ -163,13 +164,13 @@ body{
     width: 400px;
     position: relative;
     right: -300px;
-
+    object-fit: cover;
 }
 .slefbranding{
     border-radius: 100%;
     height: 400px;
     width: 400px;                            /*picture for self branding*/
-    
+    object-fit: cover;
     float:left
 }
 
@@ -204,43 +205,43 @@ body{
 }
 .defswags{
     position: relative;
-    top: 300px;                         /*div swags part*/
+    top: 250px;                         /*div swags part*/
     right: 200px;
-    
 }
 .defswags h3{
     position: relative;
-    top: 120px;
+    font-family: monospace;
+    top: 100px;
     font-size: 50px;
     color: #9980FA;
-    left: 130px;
+    /* left: 130px; */
 }
 .defswags p{
     position: relative;
     font-size: 25px;
-    top: 130px;
+    top: 100px;
     color: #000000;
     width: 70%;
-    right: -140px;
+    /* right: -140px; */
 }
 
 .defguidance{
     position: relative;
     top: 600px;                  /*div class for guidance part*/
-    right: 200px;
+    left: 230px;
 }
 .defguidance h3{
     position: relative;
     top: 100px;
     font-size: 50px;
-    left: 20px;
+    left: 5vw;
     color: purple;
 }
 .defguidance p{
     position: relative;
     top: 100px;
     font-size: 25px;      
-    left: 20px;
+    left: 5vw;
     color: #ff5e57;
 }
 
@@ -248,23 +249,23 @@ body{
 
 .defevents{
     position: relative;
-    top: 800px;                    /*div class for events part*/
-    right: -150px;
-    width: 80%;
+    top: 900px;                    /*div class for events part*/
+    width: 80vw;
 }
 .defevents h3{
     font-size: 46px;
     position: relative;
-    left: 230px;
+    left: 35vw;
     bottom: 300px;
     color: #353b48;    
 }
 .defevents p{
     font-size: 25px;
     position: relative;
-    left: 230px;
-    width: 60%;
+    left: 35vw;
+    width: 35%;
     bottom: 300px;
+    right: 200px;
     color: #4834d4;
 }
 
@@ -272,9 +273,10 @@ body{
 
 .defselfbranding{
     position: relative;             /*div class for selfbranding part*/
-    top: 64vh;
+    top: 850px;
     padding-bottom: 30vh;
-    left: 11vw;
+    left: 350px;
+    margin-bottom: 15vh;
 }
 .defselfbranding h3{
     font-size: 46px;
@@ -414,19 +416,21 @@ body{
 .secondcontent{
     background-color:#F8EFBA;
     position: relative;
-    top: 800px;                        /*tour to our discord server part*/
+    top: 800px;   
+    align-items: center;                     /*tour to our discord server part*/
     padding-bottom: 250px;
+    width: 100%;
 }
 
 .video{
     position: relative;            /*tour to our discord server video part*/
-    left: 400px;
-    
+    margin: 0 40vh 0vh 40vh;
 }
 .secondcontentheader{
     position: relative;
-    width: 90%;                   /*tour to our discord server header part*/
-    right: -290px;
+    /* width: 90%;                   tour to our discord server header part */
+    /* right: -290px; */
+    text-align: center;
                                 /*header content only have pacific writings excluding the video*/
     margin-top: 100px;
     top: 100px;
@@ -436,13 +440,14 @@ body{
     margin-bottom: 20px;
     font-family: Goudy Old Style;
     position: relative;
-    left: 60px;
 }
 .secondcontentheader h3{
     font-size: 25px;
     width: 67%;
     position: relative;
-    left: 60px;
+    text-align: center;
+    margin-left: 30vh;
+    /* left: 60px; */
     font-family: Trebuchet MS;
     margin-bottom: 150px;
 }
