@@ -250,20 +250,19 @@ body{
 .defevents{
     position: relative;
     top: 900px;                    /*div class for events part*/
-    right: -150px;
-    width: 80%;
+    width: 80vw;
 }
 .defevents h3{
     font-size: 46px;
     position: relative;
-    left: 230px;
+    left: 35vw;
     bottom: 300px;
     color: #353b48;    
 }
 .defevents p{
     font-size: 25px;
     position: relative;
-    left: 230px;
+    left: 35vw;
     width: 35%;
     bottom: 300px;
     right: 200px;
