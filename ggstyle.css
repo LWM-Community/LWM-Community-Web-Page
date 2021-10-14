@@ -149,6 +149,11 @@ body{
     height: 400px;         /*picture for swags part*/
     width: 400px;
     float: right;
+    position:relative;
+    left:50px;
+}
+.swagcontent{
+    text-align: justify;
 }
 .guidance{
     border-radius: 100%;
@@ -210,18 +215,19 @@ body{
 }
 .defswags h3{
     position: relative;
-    top: 120px;
+    top: 100px;
     font-size: 50px;
     color: #9980FA;
-    left: 130px;
+    left: 50px;
 }
 .defswags p{
     position: relative;
     font-size: 25px;
     top: 130px;
-    color: #000000;
+    color: crimson;
     width: 70%;
-    right: -140px;
+    text-justify: center;
+    left: 40px;
 }
 
 .defguidance{
@@ -255,14 +261,14 @@ body{
 .defevents h3{
     font-size: 46px;
     position: relative;
-    left: 230px;
+    left: 50px;
     bottom: 300px;
     color: #353b48;    
 }
 .defevents p{
     font-size: 25px;
     position: relative;
-    left: 230px;
+    left: 50px;
     width: 60%;
     bottom: 300px;
     color: #4834d4;
@@ -272,14 +278,14 @@ body{
 
 .defselfbranding{
     position: relative;             /*div class for selfbranding part*/
-    top: 64vh;
+    top: 800px;
     padding-bottom: 30vh;
     left: 11vw;
 }
 .defselfbranding h3{
     font-size: 46px;
     position: relative;
-    left: 2vw;
+    left: 25px;
     top: 9vh;
     color: #9b59b6;
 }
@@ -301,8 +307,8 @@ body{
 
 .firstcontentlastcontent{
     position: relative;
-    top: 750px;                            /*and many more first content footer part*/
-    left: 700px;
+    top: 810px;                            /*and many more first content footer part*/
+    left: 200px;
 }
 .firstcontentlastcontent{
     font-size: 30px;
@@ -580,4 +586,8 @@ li:hover i{
     background-color: rgb(20, 19, 19);
     cursor: pointer;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+swagscontent{
+    text-align: justify;
 }
