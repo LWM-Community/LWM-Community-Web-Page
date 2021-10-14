@@ -149,6 +149,11 @@ body{
     height: 400px;         /*picture for swags part*/
     width: 400px;
     float: right;
+    position:relative;
+    left:50px;
+}
+.swagcontent{
+    text-align: justify;
 }
 .guidance{
     border-radius: 100%;
