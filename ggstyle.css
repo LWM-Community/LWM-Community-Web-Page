@@ -568,8 +568,8 @@ body{
 }
 .contactUs:hover h2, 
 .getConnected:hover h2{
-    border-bottom: black solid;
-    width: min-content;
+    border-bottom: solid rgb(247, 84, 9);
+    color:rgb(247, 84, 9);
 }
 li:hover i{
     color: rgb(247, 84, 9);
@@ -586,8 +586,4 @@ li:hover i{
     background-color: rgb(20, 19, 19);
     cursor: pointer;
     font-family: 'IBM Plex Sans', sans-serif;
-}
-
-swagscontent{
-    text-align: justify;
 }
