@@ -409,48 +409,58 @@ body{
     padding-top: 50px;
 
 }
-
-
-
-
-
 /*Tour to our dicord server starts from here*/
 
 
 .secondcontent{
-    background-color:#F8EFBA;
     position: relative;
-    top: 800px;                        /*tour to our discord server part*/
-    padding-bottom: 250px;
+    background-color:#F8EFBA;
+    display: flex;
+    padding:200px;
+    flex-wrap: wrap;
+    /* margin-top: 800px; */
+    margin: auto;
 }
 
+
 .video{
-    position: relative;            /*tour to our discord server video part*/
-    left: 400px;
-    
+
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+
 }
-.secondcontentheader{
-    position: relative;
-    width: 90%;                   /*tour to our discord server header part*/
-    right: -290px;
-                                /*header content only have pacific writings excluding the video*/
-    margin-top: 100px;
-    top: 100px;
-    margin-bottom: 100px;
+.secondcontentheader{                   /*tour to our discord server header part*/
+                                /*header content only have pacific writing excluding the video*/
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    
 }
 .secondcontentheader h1{
     margin-bottom: 20px;
     font-family: Goudy Old Style;
-    position: relative;
-    left: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+
+    
+
 }
 .secondcontentheader h3{
     font-size: 25px;
-    width: 67%;
-    position: relative;
-    left: 60px;
+    width:70%;
+    margin: auto;
+    padding: 30px;
     font-family: Trebuchet MS;
-    margin-bottom: 150px;
+    align-items: center;
+    text-align: center;
+    border-radius: 17px;
+    background: #f8eaba;
+    box-shadow: inset 11px 11px 9px #e9dcaf,
+                inset -11px -11px 9px #fff8c5;
+
 }
 
 /*Discord Button*/
@@ -458,7 +468,7 @@ body{
     position: relative;
     display: flex;
     margin: auto;
-    margin-top: 50px; /*discord link part*/
+    margin-top: 30px; /*discord link part*/
     width: 400px;
     height: 100px;
     align-items: center;
@@ -499,6 +509,10 @@ body{
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
   }
+
+
+
+
 
 /*Footer part starts from here*/
 #footer-block{
