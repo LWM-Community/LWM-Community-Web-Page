@@ -38,37 +38,10 @@ Facebook: https://www.facebook.com/LearnWithMitul <br>
 **Here is the LWM Community  GitHub page link**:
 https://lwm-community.github.io/LWM-Community-Web-Page/ of this repository
 
-**✅Want to contribute to LWM Community ? This Repository is Open sourced and  you can contribute to this repository now in Hacktoberfest 2021 .  Have a look at this [Contribution.md](https://github.com/LWM-Community/LWM-Community-Web-Page/blob/main/Contribution.md) before you start your contribtuion.**
+**✅Want to contribute to LWM Community ?  Have a look at this [Contribution.md](https://github.com/LWM-Community/LWM-Community-Web-Page/blob/main/Contribution.md) before you start your contribtuion.**
 
 
-# Don't know what is Hacktoberfest
-
-How to register, some important rules to follow, which repos to contribute and other details in a 22 mins quick video on our Youtube Channel.
-Watch the full video here- https://www.youtube.com/watch?v=4NJrM61zZL0
-
-
-<img src="images/Hacktoberfest_final_2color-06 copy.svg" >
-
-**Hacktoberfest**, in its 8th year, is a month-long celebration of open source software run by **DigitalOcean**. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
-
--   Prepare and share your project for collaboration
--   Contribute to the betterment of a project via pull requests
--   Organize an event
--   Mentor others
--   Donate directly to open source projects
-
-## Rules for Hacktoberfest
-
--   Pull requests can be made in any participating GitHub or GitLab hosted repository/projects. Look for the **'hacktoberfest'** topic to know if a project is participating in Hacktoberfest.
-
--   You can sign up anytime between October 1 and October 31. Just be sure to sign up on the official Hacktoberfest website for your pull requests to count.
-
-### Official Links for Hacktoberfest
-
-Sign up for Hacktoberfest: https://hacktoberfest.digitalocean.com/register  
-Official Website: https://hacktoberfest.digitalocean.com/  
-Discord: https://discord.gg/hacktoberfest
-
-
-
-
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/LWM-Community/LWM-Community-Web-Page/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=LWM-Community/LWM-Community-Web-Page"/>
+</a>
